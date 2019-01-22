@@ -46,6 +46,7 @@ public class Controller {
     String bucketName = "";
 
     final String CONFIG_PATH="src/sample/Config.json";
+    final String QR_PATH="qrcode.png";
     private KvPair CONFIG_OBJ=null;
     boolean CONFIG_Set=false;
     String QRapi="";
@@ -220,7 +221,8 @@ public class Controller {
                 System.out.println(signedUrl);
                 // 关闭OSSClient。
                 CONFIG_OBJ.ossClient.shutdown();
-                Image img=new Image(QRapi+signedUrl);
+                new QRgenerate().genQrcode(String.valueOf(signedUrl));
+                Image img=new Image(QR_PATH);
                 imageView_QR.setImage(img);
             }
            return true;

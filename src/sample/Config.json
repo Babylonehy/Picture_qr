@@ -1,0 +1,10 @@
+{
+  "QRapi": "https://my.tv.sohu.com/user/a/wvideo/getQRCode.do?text=",
+  "oss": {
+    "endPoint": "oss-cn-beijing.aliyuncs.com",
+    "accessKeyId": "LTAIf7Oe8LX1eOqD",
+    "accessKeySecret": "dw5PRgTTpVAAh49ucqFD3E3F34dEh9",
+    "bucketName": "kongliu-test"
+  }
+
+}

@@ -208,7 +208,7 @@ public class Controller {
        if (CONFIG_Set){
 
            String objName=GetItem(listView);
-            if (!objName.equals("")){
+            if (!objName.equals("")&&!objName.equals("null")){
                 // 设置图片处理样式。
                 String style = "image/resize,m_fixed,w_100,h_100/rotate,90";
                 // 指定过期时间为10分钟。

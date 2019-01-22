@@ -1,5 +1,5 @@
 {
-  "QRapi": "https://my.tv.sohu.com/user/a/wvideo/getQRCode.do?text=",
+  "QRapi": "https://www.kuaizhan.com/common/encode-png?large=true&data=",
   "oss": {
     "endPoint": "oss-cn-beijing.aliyuncs.com",
     "accessKeyId": "LTAIf7Oe8LX1eOqD",

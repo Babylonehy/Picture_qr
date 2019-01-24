@@ -66,7 +66,7 @@ public class Controller {
     @FXML
     private boolean Loadfile() throws IOException {
 
-        if (OSS_OBJ==null||!OSS_OBJ.isDisConnected()) {
+        if (OSS_OBJ!=null|| !OSS_OBJ.isDisConnected()) {
             FileChooser fileChooser = new FileChooser();
             fileChooser.setTitle("View Pictures");
             fileChooser.setInitialDirectory(new File(System.getProperty("user.home"))

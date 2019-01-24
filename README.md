@@ -2,12 +2,12 @@
 
 ### Introduction 
 A simple application: image upload based on OSS storage to generate a QR code.
-* UI 
+* UI   
 ![UI](/src/res/pic/UI.png)
-* UI 
+* Upload   
 ![Upload](/src/res/pic/Upload.png)
-* GenerateQR 
-![Upload](/src/res/pic/GenerateQR.png)
+* GenerateQR   
+![GenerateQR](/src/res/pic/GenerateQR.png)
 
 ### Config   
 **Name：Config.json  

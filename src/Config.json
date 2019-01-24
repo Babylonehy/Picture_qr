@@ -1,9 +1,9 @@
 {
-    "oss": {
+  "oss": {
     "endPoint": "oss-cn-beijing.aliyuncs.com",
     "accessKeyId": "LTAIf7Oe8LX1eOqD",
     "accessKeySecret": "dw5PRgTTpVAAh49ucqFD3E3F34dEh9",
-    "bucketName": "kongliu-test"
+    "bucketName": "kongliu-test",
+    "style": "image/resize,m_fixed,w_1080,h_1920"
   }
-
 }

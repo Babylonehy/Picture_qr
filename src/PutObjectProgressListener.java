@@ -1,8 +1,10 @@
 import com.aliyun.oss.event.ProgressEvent;
 import com.aliyun.oss.event.ProgressEventType;
 import com.aliyun.oss.event.ProgressListener;
-import javafx.scene.control.ProgressBar;
 
+/**
+ *
+ */
 public class PutObjectProgressListener implements ProgressListener {
     private long bytesWritten = 0;
     private long totalBytes = -1;

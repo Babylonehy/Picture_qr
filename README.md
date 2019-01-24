@@ -1,13 +1,16 @@
-##Picture_QR
-###Introduction
+#### Picture_QR  
+
+### Introduction 
 A simple application: image upload based on OSS storage to generate a QR code.
 
-###Config
-Name：Config.json  
-Path: ./src/Config.json
+### Config   
+**Name：Config.json  
+Path: ./src/Config.json**
 
-***Config.json Demo***  
- {  
+
+***Config.json***  
+ ```
+{  
    "oss": {  
      "endPoint": "XXXX",  
      "accessKeyId": "XXXX",  
@@ -16,3 +19,4 @@ Path: ./src/Config.json
      "style": "image/resize,m_fixed,w_1080,h_1920"  
    }  
  }  
+```
